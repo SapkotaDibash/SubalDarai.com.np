@@ -1,0 +1,1 @@
+const o=typeof window<"u"?window:typeof globalThis<"u"?globalThis:global,e="https://script.google.com/macros/s/AKfycbyKhnE5ehayOis6AS0xXIcPcfqbLROvMuERZFfTHX7tS5JZONfwpy0PyAZCitHOPe2SbA/exec?";export{e as A,o as g};
