@@ -22,3 +22,17 @@ function theme(webTheme = "") {
 
 }
 window.onload = theme();
+
+
+function selectize(id) {
+    $("#"+id).select2().select2("destroy").select2();
+    // ('#mySelect2').select2('destroy');
+    // try {
+
+    //     $('#' + id).select2("destroy")
+    // }
+    // catch (err) {
+
+    // }
+    // $('#' + id).select2()
+}
